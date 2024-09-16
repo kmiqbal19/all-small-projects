@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ImgMediaCard from './components/Card';
+import { projectData } from './data/projectsData';
 
 function App() {
+ const Cards = () => {
+  return projectData.map((data, i)=> {
+    return <ImgMediaCard key={`card-${i}`} data={data}/>
+  })
+ }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{width: "70%", }}>
+
+     <Cards/>
+      </div>
     </div>
   );
 }
