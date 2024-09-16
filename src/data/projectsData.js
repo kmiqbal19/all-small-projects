@@ -16,7 +16,14 @@ export const projectData = [
     gitLink: "https://github.com/kmiqbal19/Manchester-City-Bangladesh",
     imageSrcName: "mcfcbd",
   },
-
+  {
+    name: "MSC Thesis Website",
+    description:
+      "USERNAME: guest, PASS: 0000 - Built with react, react-router",
+    viewLink: "https://thesis-information-km-dr-krause.netlify.app/",
+    gitLink: "https://github.com/kmiqbal19",
+    imageSrcName: "thesis",
+  },
   {
     name: "GlowTodo",
     description:
@@ -57,6 +64,7 @@ export const projectData = [
     gitLink: "https://github.com/kmiqbal19/Responsive-Portfolio-Site-html-css",
     imageSrcName: "platonic",
   },
+
   {
     name: "Audrey clothing",
     description:
@@ -69,7 +77,7 @@ export const projectData = [
     name: "Food Mine",
     description:
       "Built with vanilla javasript, css and html. Modules are used here to ease the MVC architechture and parcel bundler has been used. The API used here is Jonas schmedtmann's forkify app's api. Not responsive",
-    viewLink: "https://audrey-clothings.netlify.app/",
+    viewLink: "https://food-mine.netlify.app/",
     gitLink: "https://github.com/kmiqbal19/Food-Mine",
     imageSrcName: "food-mine",
   },
