@@ -2,14 +2,29 @@ export const projectData = [
   {
     name: "K M Iqbal (first portfolio in 2021)",
     description:
-      "Built with react, react-router, react-three-fiber, gsap, figma , photoshop. This website is fully responsive.",
+      "👉 MUST EXPLORE to be amazed! Built with react, react-router, react-three-fiber, gsap, figma , photoshop. This website is fully responsive.",
     viewLink: "https://kmiqbal.netlify.app/",
     gitLink: "https://github.com/kmiqbal19/Portfolio-Site-Old",
     imageSrcName: "website",
   },
-
   {
-    name: "MCFC BD",
+    name: "K M Iqbal (Second portfolio in 2022)",
+    description:
+      "👉 MUST EXPLORE to be amazed! Built with react, gsap, framer-motion, locomotive-scroll, figma , photoshop. This website is fully responsive.",
+    viewLink: "https://kmiqbal.com/",
+    gitLink: "https://github.com/kmiqbal19/Portfolio-New",
+    imageSrcName: "portfolioNew",
+  },
+  {
+    name: "Non Profit Organization - Template",
+    description:
+      "Contents can be managed through CMS. Built with react, react-router, framer-motion, gsap, figma, Sanity.io (headless CMS). This website is fully responsive.",
+    viewLink: "https://npo-template.netlify.app/",
+    gitLink: "https://github.com/kmiqbal19/NPO-Template",
+    imageSrcName: "npoTemplate",
+  },
+  {
+    name: "Machester City Fan Club Bangladesh",
     description:
       "Built with react, gsap3, css",
     viewLink: "https://mcfcbd.netlify.app/",
@@ -72,6 +87,14 @@ export const projectData = [
     viewLink: "https://audrey-clothings.netlify.app/",
     gitLink: "https://github.com/kmiqbal19/Audrey-Clothing",
     imageSrcName: "audrey",
+  },
+  {
+    name: "Love Calculator - My very first own project",
+    description:
+      "Built with vanilla javascript, html, css. This is a love calculator that calculates the love percentage between two names and ages.",
+    viewLink: "https://love-calculator-by-iqbal.netlify.app/",
+    gitLink: "https://github.com/kmiqbal19/LoveCalculator",
+    imageSrcName: "loveCalculator",
   },
   {
     name: "Food Mine",
