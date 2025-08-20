@@ -9,7 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function ImgMediaCard({ data }) {
   return (
-    <Card sx={{ width: 500, height:450 }}>
+    <Card sx={{ minWidth: 400, maxWidth : 500, minHeight:450 , maxHeight: 600 }}>
       <CardMedia
         component="img"
         alt={data.name}
